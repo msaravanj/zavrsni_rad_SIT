@@ -1,0 +1,25 @@
+.busCarousel {
+  width: 50rem;
+  height: 33.313rem;
+  margin: auto;
+}
+
+.textStyle h3,
+.textStyle p {
+  color: white;
+}
+
+.textStyle {
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  border-radius: 0.313rem;
+}
+
+@media (max-width: 68em) {
+  .busCarousel {
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    margin: auto;
+  }
+}

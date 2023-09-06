@@ -1,0 +1,29 @@
+.container {
+  margin-top: 1.875rem;
+  position: relative;
+}
+
+.spinner {
+  position: absolute;
+  top: 23%;
+  right: -6%;
+  max-width: 14.375rem;
+}
+
+@media (max-width: 47.94em) {
+  .field {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gap1 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 144em) {
+  .spinner {
+    display: none;
+  }
+}
