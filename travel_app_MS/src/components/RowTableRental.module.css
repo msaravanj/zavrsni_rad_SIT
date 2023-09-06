@@ -1,0 +1,58 @@
+.row {
+  width: 100%;
+
+  background-color: white;
+  border-style: ridge;
+  border-radius: 0.188rem;
+  position: relative;
+}
+
+.align {
+  height: 18.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.colorBlue {
+  color: #044599;
+}
+
+.colorGreen {
+  color: green;
+}
+
+.colorBlue {
+  color: #044599;
+}
+
+.toast {
+  position: absolute;
+  top: 36%;
+  right: -27%;
+  max-width: 14.375rem;
+}
+
+.textBody {
+  color: white;
+}
+
+@media (max-width: 45.5em) {
+  .align h4,
+  .align p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 30.5em) {
+  .align h4,
+  .align p {
+    font-size: 0.7rem;
+  }
+
+  .align {
+    height: 23rem;
+  }
+}

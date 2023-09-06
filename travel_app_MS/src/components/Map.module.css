@@ -1,0 +1,19 @@
+.map {
+  display: block;
+  width: 70%;
+  height: 31.25rem;
+  margin: 2rem auto 2rem auto;
+  border-radius: 0.2rem;
+  border-width: 0.25rem;
+  border-style: double;
+  border-color: grey;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 47.94em) {
+  .map {
+    width: 95%;
+    height: 22rem;
+  }
+}

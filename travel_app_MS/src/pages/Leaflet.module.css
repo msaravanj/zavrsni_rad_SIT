@@ -1,0 +1,12 @@
+.leaflet-container {
+  height: 20rem;
+  max-height: 20rem;
+  max-width: 40%;
+  position: static;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 0.2rem;
+  border-width: 0.25rem;
+  border-style: double;
+  border-color: grey;
+}
